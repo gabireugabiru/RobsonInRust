@@ -9,9 +9,9 @@ homepage = "https://robson.fly.dev"
 repository = "https://github.com/gabireugabiru/RobsonInRust"
 
 [dependencies]
-robson_compiler = { path = "../robson_compiler" }
+robson_compiler = "0.1.4"
 
 [build-dependencies]
-robson_compiler = { path = "../robson_compiler" }
+robson_compiler = "0.1.4"
 toml = "0.4.2"
 serde = { version = "1.0", features = ["derive"] }
