@@ -1,0 +1,17 @@
+[package]
+name = "rbsnrust"
+version = "0.1.0"
+edition = "2021"
+authors = ["GabireuGabiru"]
+description = "A crate for using your robson code alongside your rust code"
+license = "MIT"
+homepage = "https://robson.fly.dev"
+repository = "https://github.com/gabireugabiru/RobsonInRust"
+
+[dependencies]
+robson_compiler = { path = "../robson_compiler" }
+
+[build-dependencies]
+robson_compiler = { path = "../robson_compiler" }
+toml = "0.4.2"
+serde = { version = "1.0", features = ["derive"] }
